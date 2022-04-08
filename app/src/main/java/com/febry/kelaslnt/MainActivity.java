@@ -48,9 +48,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+
+
         Glide.with(this)
                 .load(R.drawable.ic_launcher_foreground)
                 .into(imageView);
+
+
 
 
 //        IsiRecyclerView[] isiRecyclerView = new IsiRecyclerView[6];
